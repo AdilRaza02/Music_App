@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_ui);
         Log.wtf("My First", "Git");
-
+        Log.wtf("My Second", "Git");
         //Logo Title Bar
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setLogo(R.mipmap.ic_launcher_foreground);
