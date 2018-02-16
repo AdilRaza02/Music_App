@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_ui);
-
+        Log.wtf("My First", "Git");
 
         //Logo Title Bar
         getSupportActionBar().setDisplayShowHomeEnabled(true);
